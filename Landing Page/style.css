@@ -1,0 +1,170 @@
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #1a4691;
+    --secondary-color: #fc545a;
+    --line-height: 1.7rem;
+    --transition: 0.1s ease-in;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+}
+
+.page{
+    background-color: white;
+}
+
+.logos {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.logo{
+    
+    block-size: 90px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+  
+.nav-link {
+    font-size: 20px;
+    font-weight: var(--bold-font);
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0.2rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    background-color:rgb(122, 154, 241);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bars {
+    display: none;
+}
+
+.hero{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+}
+
+.intro-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro-text p {
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+}
+  
+.hero p {
+    line-height: var(--line-height);
+}
+  
+.hear {
+    color: rgb(114, 25, 197);
+}
+  
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #0b0c0a;
+}
+
+.red {
+    background-color: rgb(93, 93, 221);
+    margin-right: 1.5rem;
+}
+  
+.red:hover {
+    background-color: #fc545a;
+    color: #fff;
+}
+  
+
+.about {
+    position:absolute;
+    width: 50%;
+      height: 0px;
+      padding: 1px;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+    
+}
+
+.about h3 {
+    font-size: 30px;
+    margin-bottom: -1px;
+}
+  
+.about p {
+    font-size: 20px;
+}
+  
+.social {
+    text-align: left;
+    margin: 2rem;
+} 
+  
+.socicons {
+    text-decoration: none;
+    color:#6a7199;
+    padding-right:35px;
+    font-size: 25px;
+}
+
+.insta{
+    height: 20px;
+    position: absolute;
+}
+.tele{
+    height: 20px;
+    position: absolute;
+}
+.linkedin{
+    height: 20px;
+    position: absolute;
+}
